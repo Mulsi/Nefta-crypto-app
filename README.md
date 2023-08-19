@@ -1,27 +1,19 @@
-# NeftaCodingTest
+# Nefta Crypto App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This repository contains an app built with Angular which utilizes the MetaMask browser extension and enables the end user to send crypto coins to a specific address on selected EVM chain.
 
-## Development server
+## Requirements
+* Angular CLI -> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+* node.js version 16 or higher
+* MetaMask browser extensions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instructions
+* npm install
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+1.  Select desired chain in the dropdown
+2. Enter recipient address in hexadecimal
+3. Enter the desired amount of coins to be sent
+4. I personally tested transactions with Ganache `https://trufflesuite.com/ganache/` which creates a personal Ethereum blockain.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

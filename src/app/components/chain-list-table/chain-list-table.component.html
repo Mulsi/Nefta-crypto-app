@@ -1,0 +1,7 @@
+<div>
+    <h2 class="text-xl font-bold mb-4">Select your chain</h2>
+    <div class="card flex justify-content-center drop-shadow-2xl h-[400px] overflow-auto">
+        <p-listbox [options]="chains" optionLabel="name" [filter]="true" [style]="{ width: '25rem' }"
+            (onChange)="onListboxChange($event.value)"></p-listbox>
+    </div>
+</div>
