@@ -16,4 +16,4 @@ This repository contains an app built with Angular which utilizes the MetaMask b
 3. Enter the desired amount of coins to be sent
 4. I personally tested transactions with Ganache `https://trufflesuite.com/ganache/` which creates a personal Ethereum blockain.
 
-
+Developed by Miha Mulej.
